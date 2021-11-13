@@ -159,7 +159,7 @@ def unfollow(lb):
                 lb.select_set(0,END)
                 unf_list=[lb.get(user) for user in lb.curselection()]
                 time_calculated=30*len(unf_list)
-                messagebox.showinfo(title="Info",message=f"Starting unfollow process...\n\nDo not interact neither with the browser nor with the application until the program finishes to unfollow all the users that you selected.\n\nDue to Instagram's policies and regulations to prevent bots, each user must be unfollowed with an interval of 30 seconds to bypass bot detection.\n\nWith the total of {len(unf_list)} users  selected,\nall unfollowing process will take approximately {time_calculated} seconds.\n\nClick 'OK' to proceed.")
+                messagebox.showinfo(title="Info",message=f"Starting unfollow process...\n\nDo not interact neither with the browser nor with the application until the program finishes to unfollow all the users that you selected.\n\nDue to Instagram's policies and regulations to prevent bots, each user must be unfollowed with an interval of 30 seconds to bypass bot detection.\n\nWith the total of {len(unf_list)} users selected,\nall unfollowing process will take approximately {time_calculated} seconds.\n\nClick 'OK' to proceed.")
                 browser.unfollow(unf_list)
         except:
                 messagebox.showerror(title="Error",message="In order to start unfollowing process, you have to login, to dump profiles.")
