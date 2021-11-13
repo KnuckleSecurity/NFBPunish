@@ -17,4 +17,5 @@ Run `setup.bat`
 
 For Linux:->> 
 Run `setup.sh`
-Run `sudo pacman -S tk` or `sudo apt install tk`
+<br>
+Run `sudo pacman -S tk` for Arch, or `sudo apt install tk` for Debian.
