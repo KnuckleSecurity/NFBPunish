@@ -18,7 +18,7 @@ class InstagramBot:
                         s=Service('./geckodriver')
                         self.driver=webdriver.Firefox(service=s)
                     if os.name=='nt':
-                        s=Service("geckodriver.exe")
+                        s=Service(".\geckodriver.exe")
                         self.driver=webdriver.Firefox(service=s)
                 except:
                     os._exit(-1)
