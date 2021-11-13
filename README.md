@@ -17,9 +17,9 @@ automatically unfollow all those users with one click.
 git clone https://github.com/krygeNNN/NFBPunish
 ```
 For Windows:<br>
-Run `setup.bat`
+* Run `setup.bat`
 <br>
-Download win64.zip extensioned zip file from <br>`https://github.com/mozilla/geckodriver/releases/tag/v0.30.0`<br>
+* Download win64.zip extensioned zip file from <br>`https://github.com/mozilla/geckodriver/releases/tag/v0.30.0`<br>
 and move the executable in the NFBPunish file.
 <br>
 
