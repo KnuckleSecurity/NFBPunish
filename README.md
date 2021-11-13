@@ -4,6 +4,7 @@ It automatically produces lists for both users you follow and who follow you, th
 combs out the users whom not following you back, after that you can
 automatically unfollow all those users with one click.
 <br>
+<br>
 ![Desktop View](misc/pic1.png)
 
 ## Prerequisities
