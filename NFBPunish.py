@@ -21,7 +21,7 @@ class InstagramBot:
                         s=Service(".\geckodriver.exe")
                         self.driver=webdriver.Firefox(service=s)
                 except:
-                    gdrv=messagebox.askyesno('Yes|No', f"!!! Could not find executable geckodriver in the current working directory.Please select and download the appropriate version for your system.After downloading the executable, place it into \n\n{os.getcwd()}\n\nDo you want to be redirected to the website ?")
+                    gdrv=messagebox.askyesno('Geckodriver is missing !!!', f"!!! Could not find executable geckodriver in the current working directory.Please select and download the appropriate version for your system.After downloading the executable, place it into \n\n{os.getcwd()}\n\nDo you want to be redirected to the website ?")
                     print(gdrv)
                     if gdrv:
                         webbrowser.open("https://github.com/mozilla/geckodriver/releases")
