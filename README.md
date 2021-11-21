@@ -1,7 +1,7 @@
 # NFBPunish
 NFBPunish is an Instagram unfollower software with a GUI. 
 It automatically produces lists for both users you follow and who follow you, then
-combs out ones who do not, after that you can
+combs out ones who do not, after which you can
 automatically unfollow all those users with one click.
 <br>
 <br>
